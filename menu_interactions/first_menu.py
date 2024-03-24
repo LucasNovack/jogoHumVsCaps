@@ -1,5 +1,6 @@
+from game.game_igniter import game_igniter
+from endings.end_game import game_ended_on_first_menu
 import menu_interactions.cli_prints as cli_prints
-from menu_interactions.end_game import game_ended_on_first_menu
 import utils.clear_terminal as cl
 
 expected_options = ["1", "2"]
@@ -16,6 +17,6 @@ def start_menu():
 
     match user_menu_choice:
         case "1":
-                print("Função de iniciar o game")
+                game_igniter()
         case "2": 
                 game_ended_on_first_menu()
