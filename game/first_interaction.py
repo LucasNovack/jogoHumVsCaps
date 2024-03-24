@@ -1,6 +1,6 @@
-from menu_interactions.cli_prints import print_first_interaction_1, print_first_interaction_2, ran_away_and_survived
 from endings.end_game import game_over_on_first_interaction 
 from game.avange_or_surrender import avange_or_surrender
+from prints.first_interaction import print_first_interaction_1, print_first_interaction_2, ran_away_and_survived
 import utils.clear_terminal as cl
 
 expected_options = ["1", "2"]

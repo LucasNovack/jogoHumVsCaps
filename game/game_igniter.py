@@ -1,4 +1,4 @@
-from menu_interactions.cli_prints import prologue_1, prologue_2, read_prologue
+from prints.prologue import prologue_1, prologue_2, read_prologue
 from game.first_interaction import first_interaction
 import utils.clear_terminal as cl
 

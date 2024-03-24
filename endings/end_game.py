@@ -1,15 +1,16 @@
 import utils.clear_terminal as cl
-import menu_interactions.cli_prints as prints
+from prints.game_over import game_ended_on_first_menu_message, game_over_on_first_interaction, print_game_over_by_surrender
+from prints.misc import print_logo
 
 def game_ended_on_first_menu():
     cl.clear_terminal()
-    prints.print_logo()
-    prints.game_ended_on_first_menu_message()
+    print_logo()
+    game_ended_on_first_menu_message()
 
 def game_over_on_first_interaction():
     cl.clear_terminal()
-    prints.game_over_on_first_interaction()
+    game_over_on_first_interaction()
 
 def game_over_by_surrender():
     cl.clear_terminal()
-    prints.print_game_over_by_surrender()
+    print_game_over_by_surrender()
