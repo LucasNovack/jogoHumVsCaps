@@ -1,7 +1,7 @@
 import random
 
-def rold_d20():
-    return random.randint(1,20)
+def roll_d10():
+    return (random.randint(1,10) / 10)
 
-def roll_d6():
-    return random.randint(1,6)
+def roll_d3():
+    return(random.randint(1,3))

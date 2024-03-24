@@ -1,5 +1,6 @@
-from prints.select_class import print_select_class
 from character_files.build_types import warrior, scout, lucky
+from game.first_fight import first_fight
+from prints.select_class import print_select_class
 import utils.clear_terminal as cl
 
 expected_options = ["1", "2", "3"]
@@ -18,9 +19,9 @@ def select_class():
 
     match choice:
         case "1":
-            print(warrior["strenght"])
+            first_fight(warrior, "Guerreiro")
         case "2":
-            print(**scout)
+            first_fight(scout, "Guerreiro")
         case "3":
-            print(**lucky)
+            first_fight(lucky, "Guerreiro")
     

@@ -1,4 +1,5 @@
 warrior = {
+    "health": 20,
     "strenght": 10,
     "speed": 3,
     "defense": 5,
@@ -6,6 +7,7 @@ warrior = {
 }
 
 scout = {
+    "health": 15,
     "strenght": 4,
     "speed": 10,
     "defense": 2,
@@ -13,6 +15,7 @@ scout = {
 }
 
 lucky = {
+    "health": 15,
     "strenght": 2,
     "speed": 2,
     "defense": 2,
