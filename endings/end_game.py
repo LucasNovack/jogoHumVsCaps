@@ -17,4 +17,12 @@ def game_over_by_surrender():
 
 def game_over_on_first_fight():
     cl.clear_terminal()
-    game_over.print_game_over_on_first_fight
+    game_over.print_game_over_on_first_fight()
+
+def game_over_on_second_fight():
+    cl.clear_terminal()
+    game_over.print_game_over_on_second_fight()
+
+def game_over_on_final_fight():
+    cl.clear_terminal()
+    game_over.print_game_over_on_final_fight()

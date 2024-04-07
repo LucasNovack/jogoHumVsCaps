@@ -1,4 +1,5 @@
 from character_files.first_soldier import first_soldier
+from game.second_fight import second_fight
 from prints.attacks import print_attack_types
 from prints.capy_stats import print_capy_stats
 from prints.first_fight import print_first_fight_1, print_first_fight_2, print_first_fight_soldier_stats
@@ -55,7 +56,7 @@ def first_fight(capy: dict, class_name: str):
 
     match is_capy_alive:
         case True:
-            print("Parabéns, derrotou o primeiro soldado.")
+            second_fight(capy=capy)
         case False:
             game_over_on_first_fight()
         
